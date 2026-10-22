@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sports_governance>
+    <metadata>
+        <source>UEFA &amp; National League Financial Fair Play Guidelines</source>
+        <season>2023-2024</season>
+        <last_updated>2024-05-01</last_updated>
+    </metadata>
+
+    <competitions>
+        <!-- PREMIER LEAGUE (INGLATERRA) -->
+        <competition id="PL" domestic_id="GB1">
+            <general_info>
+                <name>Premier League</name>
+                <country>England</country>
+                <confederation>UEFA</confederation>
+                <uefa_country_coefficient>104.303</uefa_country_coefficient>
+            </general_info>
+
+            <sporting_benchmarks>
+                <!-- Metas históricas médias de pontos -->
+                <target_champions_league>71</target_champions_league>
+                <target_europa_league>61</target_europa_league>
+                <target_relegation_safety>38</target_relegation_safety>
+            </sporting_benchmarks>
+
+            <financial_parameters currency="EUR">
+                <!-- Parâmetros de Fair Play Financeiro e Receitas Médias -->
+                <base_tv_distribution_pool>3100000000</base_tv_distribution_pool>
+                <merit_prize_per_position>3200000</merit_prize_per_position>
+                <squad_cost_ratio_cap>0.70</squad_cost_ratio_cap>
+                <expected_cost_per_point_benchmark>14500000</expected_cost_per_point_benchmark>
+            </financial_parameters>
+        </competition>
+
+        <!-- LIGA PORTUGAL (Caso queiras expandir o trabalho) -->
+        <competition id="PPL" domestic_id="PO1">
+            <general_info>
+                <name>Liga Portugal Betclic</name>
+                <country>Portugal</country>
+                <confederation>UEFA</confederation>
+                <uefa_country_coefficient>56.316</uefa_country_coefficient>
+            </general_info>
+
+            <sporting_benchmarks>
+                <target_champions_league>74</target_champions_league>
+                <target_europa_league>55</target_europa_league>
+                <target_relegation_safety>32</target_relegation_safety>
+            </sporting_benchmarks>
+
+            <financial_parameters currency="EUR">
+                <base_tv_distribution_pool>180000000</base_tv_distribution_pool>
+                <merit_prize_per_position>450000</merit_prize_per_position>
+                <squad_cost_ratio_cap>0.70</squad_cost_ratio_cap>
+                <expected_cost_per_point_benchmark>2800000</expected_cost_per_point_benchmark>
+            </financial_parameters>
+        </competition>
+    </competitions>
+</sports_governance>
